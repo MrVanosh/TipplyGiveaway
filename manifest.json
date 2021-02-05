@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "TipplyGiveaway",
+  "version": "1.0",
+  "description": "Pick random people on Tipply",  "author": "Mateusz Iwaniszczuk",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "imgs/tipply16.png",
+      "24": "imgs/tipply24.png",
+      "32": "imgs/tipply32.png",
+      "48": "imgs/tipply48.png",
+      "64": "imgs/tipply64.png",
+      "128": "imgs/tipply128.png"
+    },
+    "default_title": "Giveaway",
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["activeTab", "app.tipply.pl"]
+}

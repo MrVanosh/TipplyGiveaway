@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        margin: 0;
+        margin-top: 10px;
+        padding: 0px;
+        width: 340px;
+        height: 366px;
+        background-image: url('imgs/bg.jpg') !important;
+        color: white;
+        font-size: 15px;
+      }
+      input {
+        height: 30px;
+        font-size: 13px;
+        border-radius: 5px;
+      }
+      #losuj {
+        padding: 10px 20px;
+        width: 100%;
+        border: none;
+        background: linear-gradient(135deg,#3CE898 0%,#4FFF7C 100%);
+        margin-top: 10px;
+        color: white;
+        border-radius: 20px;
+        font-weight: bold;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, .1);
+        transition: .2s ease;
+      }
+      #losuj:hover {
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, .2);
+        transform: scale(1.01);
+      }
+      #losuj:focus {
+        outline: none;
+      }
+      #end {
+        float: right;
+      }
+      h2 {
+        text-align: center;
+      }
+      main {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      footer {
+        color: white !important;
+        margin-top: 5px;
+        font-weight: bold;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div><input type="date" id="start"> -<input type="date" id="end"></div>
+      <div>
+        <div class="losowanie"></div>
+        <div class="win"></div>
+      </div>
+      <div>
+        <button id="losuj">Losuj!</button>
+        <footer>© 2021 Mateusz aka MrVanosh</footer>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

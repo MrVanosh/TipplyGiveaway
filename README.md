@@ -1,3 +1,2 @@
-# TipAndDonation Giveaway plugin
-Pick random people by day
-# TipplyGiveaway
+# Tipply Giveaway
+Pick random people from donate ❗️
